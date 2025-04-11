@@ -1,0 +1,33 @@
+body{
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 50, 0.4), rgba(0, 0, 50, 0.4)), 
+    url("../imagenes/fun.jpg") no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.botones {
+    display: flex;
+    justify-content: center;
+    gap: 90px; /* Espacio entre botones */
+    flex-wrap: wrap; /* Para que no se desborden en pantallas pequeñas */
+    background: none; /* Quitamos fondo común */
+}
+
+.botones a button {
+    background-color: #ff4081;
+    color: white;
+    border: none;
+    padding: 20px 45px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 40px;
+    transition: transform 0.2s, background-color 0.3s;
+}
+
+.botones a button:hover {
+    background-color: #e73370;
+    transform: scale(1.5);
+}
+

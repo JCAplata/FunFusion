@@ -1,0 +1,87 @@
+body{
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 50, 0.4), rgba(0, 0, 50, 0.4)), 
+    url("../imagenes/fun.jpg") no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.tarjetas{
+    align-items: center;
+    display: flex;
+    gap: 50px;
+
+}
+.tarjeta1{
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+.tarjeta1:hover{
+    transform: translateY(-10px);
+    background-color: aqua;
+}
+.tarjeta1 img{
+    width: 400px; 
+}
+.tarjeta1 button{
+    background-color: #ff4081;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.tarjeta2{
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+.tarjeta2:hover{
+    transform: translateY(-10px);
+    background-color: aqua;
+}
+.tarjeta2 img{
+    width: 290px;
+}
+.tarjeta2 button{
+    background-color: #ff4081;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.tarjeta3{
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+.tarjeta3:hover{
+    transform: translateY(-10px);
+    background-color: aqua;
+}
+.tarjeta3 img{
+    width: 245px;
+}
+.tarjeta3 button{
+    background-color: #ff4081;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
